@@ -1,0 +1,61 @@
+﻿<Window x:Class="WpfHotelZavrsni01.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:HamburgerMenu="clr-namespace:HamburgerMenu;assembly=HamburgerMenu"
+        xmlns:local="clr-namespace:WpfHotelZavrsni01"
+        mc:Ignorable="d"
+        Title="MainWindow" Height="620" Width="1100">
+
+    <Grid Background="Maroon">
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition Width="140"/>
+            <ColumnDefinition/>
+        </Grid.ColumnDefinitions>
+        <Menu x:Name="menu1" HorizontalAlignment="Stretch" VerticalAlignment="Stretch" Grid.Column="0" Background="Maroon" BorderBrush="Goldenrod">
+            <Menu.ItemsPanel>
+                <ItemsPanelTemplate>
+                    <VirtualizingStackPanel Orientation="Vertical"/>
+                </ItemsPanelTemplate>
+            </Menu.ItemsPanel>
+            <MenuItem x:Name="menuHome" Header="Pocetna" Height="50" Background="Maroon" Foreground="White" FontStyle="Italic" FontSize="20" Click="menuHome_Click" BorderBrush="Black" BorderThickness="2">
+                <MenuItem.Icon>
+                    <Image Source="Icons/1.png"/>
+                </MenuItem.Icon>
+            </MenuItem>
+            <MenuItem x:Name="menuCekiranje" Header="Cekiranje" Height="50"  Foreground="White" FontStyle="Italic" Background="Maroon" FontSize="20" Click="menuCekiranje_Click">
+                <MenuItem.Icon>
+                    <Image Source="Icons/10.png" Stretch="UniformToFill" HorizontalAlignment="Stretch" VerticalAlignment="Stretch"/>
+                </MenuItem.Icon>
+            </MenuItem>
+            <MenuItem x:Name="menuRezervacije" Header="Rezervacije" Height="50"  Foreground="White" FontStyle="Italic" Background="Maroon" Click="menuRezervacije_Click" FontSize="20">
+                <MenuItem.Icon>
+                    <Image Source="Icons/7.png" Stretch="UniformToFill" HorizontalAlignment="Stretch" VerticalAlignment="Stretch"/>
+                </MenuItem.Icon>
+            </MenuItem>
+            <MenuItem x:Name="menuGalerija" Header="Galerija" Height="50"  Foreground="White" FontStyle="Italic" Background="Maroon" Click="menuGalerija_Click" FontSize="20">
+                <MenuItem.Icon>
+                    <Image Source="Icons/GL.png" Stretch="UniformToFill" HorizontalAlignment="Stretch" VerticalAlignment="Stretch"/>
+                </MenuItem.Icon>
+            </MenuItem>
+        </Menu>
+        <Canvas Background="Maroon" Grid.Column="1">
+            <Label Content="PETROVIC HOTEL" Foreground="Goldenrod" Canvas.Left="658" Canvas.Top="23" Height="41" Width="300" FontSize="30" FontWeight="DemiBold" FontStyle="Italic" FontFamily=" Arial italic"/>
+            <Label Content="Ime" Foreground="DarkKhaki" Canvas.Left="107" Canvas.Top="10" Width="51" Height="35" FontSize="20" FontWeight="ExtraBold" />
+            <TextBox x:Name="textboxPretraga" Height="19" Canvas.Left="107" TextWrapping="Wrap" Text="" Canvas.Top="45" Width="112" TextChanged="textboxPretraga_TextChanged"/>
+            <Button x:Name="btnDodaj" Content="Dodaj" Background="White" Canvas.Left="107" Canvas.Top="542" Width="76" Click="btnDodaj_Click"/>
+            <Button x:Name="btnPromeni" Content="Promeni" Background="White" Canvas.Left="248" Canvas.Top="542" Width="74" Click="btnPromeni_Click"/>
+            <Button x:Name="btnObrisi" Content="Obrisi" Background="White" Canvas.Left="383" Canvas.Top="542" Width="75" Click="btnObrisi_Click"/>
+            <Border x:Name="borderFrame" BorderBrush="Black" BorderThickness="1" Height="400" Canvas.Left="30" Canvas.Top="100" Width="900">
+                <Frame x:Name="frame1" VerticalAlignment="Stretch" NavigationUIVisibility="Hidden"/>
+            </Border>
+            <Button x:Name="ButtonPretraga" Content="Pretraga" Foreground="Goldenrod" FontWeight="Bold" Canvas.Left="248" Canvas.Top="45" Width="66" Height="19" Click="ButtonPretraga_Click"/>
+
+        </Canvas>
+
+
+
+
+    </Grid>
+</Window>

@@ -1,0 +1,35 @@
+﻿<Page x:Class="WpfHotelZavrsni01.PageHome"
+      xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+      xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+      xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
+      xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
+      xmlns:local="clr-namespace:WpfHotelZavrsni01"
+      mc:Ignorable="d" 
+      d:DesignHeight="350" d:DesignWidth="900"
+      Title="Page1" Background="Goldenrod">
+    <Page.Resources>
+        <local:StatusConverter x:Key="statusConv"/>
+    </Page.Resources>
+    
+
+        <Grid>
+            <Label Content="Podaci o sobama" Foreground="Green" HorizontalAlignment="Left" Margin="26,17,0,0" VerticalAlignment="Top" RenderTransformOrigin="0.7,0.551" FontSize="14"/>
+        <TextBlock HorizontalAlignment="Left" Margin="600,21,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Height="232" Width="262" FontSize="15" FontStyle="Italic">
+            Usluge obroka - termini: <LineBreak/> 
+             <LineBreak/> 
+             <LineBreak/> 
+                 1. DORUCAK ( 8:00 - 12:00 )
+             <LineBreak/> 
+             <LineBreak/> 
+             <LineBreak/>             
+              2.RUCAK ( 14:00 - 17:00 ) 
+            <LineBreak/> 
+             <LineBreak/> 
+             <LineBreak/> 
+            
+            3.VECERA ( 18:00 - 21:00 )
+            </TextBlock>
+        <TextBox x:Name="textboxStatus" HorizontalAlignment="Left" Height="228" Margin="26,56,0,0" TextWrapping="Wrap" Text="" VerticalAlignment="Top" Width="397" FontSize="15"/>
+
+    </Grid>
+</Page>

@@ -1,0 +1,27 @@
+﻿<Page x:Class="WpfHotelZavrsni01.PageCekiranje"
+      xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+      xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+      xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
+      xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
+      xmlns:local="clr-namespace:WpfHotelZavrsni01"
+      mc:Ignorable="d" 
+      d:DesignHeight="350" d:DesignWidth="850"
+      Title="PageCekiranje" Background="White">
+
+    <Grid>
+        <DataGrid x:Name="datagridCekiranja" HorizontalAlignment="Left" Height="239" Margin="21,41,0,0" VerticalAlignment="Top" Width="497"
+                  AlternationCount="2" AlternatingRowBackground="Orange"
+                  CanUserSortColumns="False" CanUserAddRows="False"
+                  SelectionMode="Single" SelectionUnit="FullRow"
+                 AutoGenerateColumns="False" IsReadOnly="True" Background="White" SelectionChanged="datagridCekiranja_SelectionChanged">
+            <DataGrid.Columns>
+                <DataGridTextColumn Header="Id" Width="40" Binding="{Binding Path=CekiranjeId,Mode=OneWay}"/>
+                <DataGridTextColumn Header="Gost" Width="120" Binding="{Binding Path=Gost,Mode=OneWay}"/>
+                <DataGridTextColumn Header="Vrsta sobe" Width="100" Binding="{Binding Path=VrstaSobe,Mode=OneWay}"/>
+                <DataGridTextColumn Header="Datum Cekiranja" Width="120" Binding="{Binding Path=CekiranjeDatum,Mode=OneWay}"/>
+                <DataGridTextColumn Header="Datum Odlaska" Width="120" Binding="{Binding Path=OdlazakDatum,Mode=OneWay}"/>
+            </DataGrid.Columns>
+        </DataGrid>
+        <Label Content="Cekiranja" HorizontalAlignment="Left" Margin="21,10,0,0" VerticalAlignment="Top"/>
+    </Grid>
+</Page>

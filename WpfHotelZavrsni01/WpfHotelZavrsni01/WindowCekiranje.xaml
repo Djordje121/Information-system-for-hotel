@@ -1,0 +1,52 @@
+﻿<Window x:Class="WpfHotelZavrsni01.WindowCekiranje"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:WpfHotelZavrsni01"
+        mc:Ignorable="d"
+        Title="WindowCekiranje" Height="500" Width="900" Loaded="Window_Loaded">
+    <Window.Resources>
+        <local:StatusConverter x:Key="statusConv"/>
+    </Window.Resources>
+    <Grid x:Name="grid1" Background="Chocolate">
+        <TextBox x:Name="textboxImeGosta" HorizontalAlignment="Left" Height="23" Margin="37,34,0,0" TextWrapping="Wrap" Foreground="Gray" Text="Ime" VerticalAlignment="Top" Width="120" GotFocus="text_gotFocus" LostFocus="text_lostFocus" TextChanged="text_Changed"/>
+        <TextBox x:Name="textboxPrezime" HorizontalAlignment="Left" Height="23" Margin="37,88,0,0" TextWrapping="Wrap" Foreground="Gray" Text="Prezime" VerticalAlignment="Top" Width="120" GotFocus="text_gotFocus" LostFocus="text_lostFocus" TextChanged="text_Changed"/>
+        <TextBox x:Name="textboxJmbg" HorizontalAlignment="Left" Height="23" Margin="37,141,0,0" TextWrapping="Wrap" Foreground="Gray" Text="Jmbg" VerticalAlignment="Top" Width="120" GotFocus="text_gotFocus" LostFocus="text_lostFocus" TextChanged="text_Changed"/>
+        <TextBox x:Name="textboxKontaktTelefon" HorizontalAlignment="Left" Height="23" Margin="37,199,0,0" TextWrapping="Wrap" Foreground="Gray" Text="Telefon" VerticalAlignment="Top" Width="120" GotFocus="text_gotFocus" LostFocus="text_lostFocus" TextChanged="text_Changed"/>
+        <TextBox x:Name="textboxEmail" HorizontalAlignment="Left" Height="34" Margin="37,268,0,0" TextWrapping="Wrap" Foreground="Gray" Text="Email" VerticalAlignment="Top" Width="192" GotFocus="text_gotFocus" LostFocus="text_lostFocus" />
+        <ComboBox x:Name="comboboxTipSobe" HorizontalAlignment="Left" Margin="461,43,0,0" VerticalAlignment="Top" Width="120" Style="{StaticResource {x:Static ToolBar.ComboBoxStyleKey}}" SelectionChanged="comboboxTipSobe_SelectionChanged"/>
+        <ComboBox x:Name="comboBoxUsluga" HorizontalAlignment="Left" Margin="714,43,0,0" VerticalAlignment="Top" Width="120" Style="{StaticResource {x:Static ToolBar.ComboBoxStyleKey}}" SelectionChanged="comboBoxUsluga_SelectionChanged"/>
+        <DatePicker x:Name="datepickerPrijava" HorizontalAlignment="Left" Margin="461,310,0,0" VerticalAlignment="Top" SelectedDateChanged="datepickerPrijava_SelectedDateChanged"/>
+        <DatePicker x:Name="datepickerOdjava" HorizontalAlignment="Left" Margin="732,310,0,0" VerticalAlignment="Top" SelectedDateChanged="datepickerOdjava_SelectedDateChanged"/>
+        <Button x:Name="btnZavrsi" Content="zavrsi" HorizontalAlignment="Left" Margin="40,377,0,0" VerticalAlignment="Top" Width="75" Click="btnZavrsi_Click"/>
+        <Button x:Name="btnOdustani" Content="odustani" HorizontalAlignment="Left" Margin="154,377,0,0" VerticalAlignment="Top" Width="75" Click="btnOdustani_Click"/>
+        <DataGrid x:Name="dataGridSobe" Background="White" HorizontalAlignment="Left" Height="179" Margin="461,88,0,0" VerticalAlignment="Top" Width="373"
+                   AutoGenerateColumns="False"
+                  CanUserAddRows="False" CanUserSortColumns="False" IsReadOnly="True"
+                  SelectionUnit="FullRow" SelectionMode="Single" SelectionChanged="dataGridSobe_SelectionChanged">
+            <DataGrid.Columns>
+                <DataGridTextColumn Header="Broj sobe" Binding="{Binding Path=BrojSobe,Mode=OneWay}" Width="90"/>
+                <DataGridTextColumn Header="Sprat" Binding="{Binding Path=Sprat,Mode=OneWay}" Width="90"/>
+                <DataGridTemplateColumn Header="Status" Width="100">
+                    <DataGridTemplateColumn.CellTemplate>
+                        <DataTemplate>
+                            <TextBlock Text="{Binding Path=VratiStatus,Mode=OneWay}" Foreground="{Binding Path=StatusSobe,Mode=OneWay,Converter={StaticResource statusConv}}"/>
+                        </DataTemplate>
+                    </DataGridTemplateColumn.CellTemplate>
+                </DataGridTemplateColumn>
+                <DataGridTextColumn Header="Cena" Binding="{Binding Path=CenaSobePoDanu,Mode=OneWay}" Width="90"/>
+            </DataGrid.Columns>
+        </DataGrid>
+        <Label Content="vrsta sobe" HorizontalAlignment="Left" Margin="461,10,0,0" VerticalAlignment="Top"/>
+        <Label x:Name="labelImeGosta" Content="*" FontWeight="Bold" HorizontalAlignment="Left" Margin="40,57,0,0" VerticalAlignment="Top"  Foreground="Red" Tag="{Binding ElementName=textboxImeGosta,Path=Name,Mode=OneWay}"/>
+        <Label x:Name="labelPrezime" Content="*" FontWeight="Bold" HorizontalAlignment="Left" Margin="40,115,0,0" VerticalAlignment="Top" Foreground="Red" Tag="{Binding ElementName=textboxPrezime,Path=Name,Mode=OneWay}"/>
+        <Label x:Name="labelJmbg" Content="*" FontWeight="Bold" HorizontalAlignment="Left" Margin="37,169,0,0" VerticalAlignment="Top" Foreground="Red" Tag="{Binding ElementName=textboxJmbg,Path=Name,Mode=OneWay}"/>
+        <Label x:Name="labelKontaktTelefon" Content="*" FontWeight="Bold" HorizontalAlignment="Left" Margin="40,237,0,0" VerticalAlignment="Top" Foreground="Red" Tag="{Binding ElementName=textboxKontaktTelefon,Path=Name,Mode=OneWay}"/>
+        <Label Content="prijava" HorizontalAlignment="Left" Margin="461,276,0,0" VerticalAlignment="Top"/>
+        <Label Content="odjava" HorizontalAlignment="Left" Margin="750,276,0,0" VerticalAlignment="Top"/>
+        <TextBox x:Name="textboxCena" HorizontalAlignment="Left" Height="45" Margin="689,382,0,0" TextWrapping="Wrap" Text="" VerticalAlignment="Top" Width="145" IsReadOnly="False"/>
+        <Button x:Name="buttonCena" Content="vidi cenu" HorizontalAlignment="Left" Margin="609,390,0,0" VerticalAlignment="Top" Width="75" Click="buttonCena_Click" Height="30"/>
+        <Label Content="vrsta obroka" HorizontalAlignment="Left" Margin="714,10,0,0" VerticalAlignment="Top" Width="81"/>
+    </Grid>
+</Window>

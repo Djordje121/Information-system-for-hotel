@@ -1,0 +1,54 @@
+C:\Users\petro\onedrive\documents\visual studio 2017\Projects\WpfHotelZavrsni01\WpfHotelZavrsni01\obj\Debug\WpfHotelZavrsni01.csprojResolveAssemblyReference.cache
+C:\Users\petro\onedrive\documents\visual studio 2017\Projects\WpfHotelZavrsni01\WpfHotelZavrsni01\obj\Debug\MainWindow.g.cs
+C:\Users\petro\onedrive\documents\visual studio 2017\Projects\WpfHotelZavrsni01\WpfHotelZavrsni01\obj\Debug\WindowCekiranje.g.cs
+C:\Users\petro\onedrive\documents\visual studio 2017\Projects\WpfHotelZavrsni01\WpfHotelZavrsni01\obj\Debug\App.g.cs
+C:\Users\petro\onedrive\documents\visual studio 2017\Projects\WpfHotelZavrsni01\WpfHotelZavrsni01\obj\Debug\WpfHotelZavrsni01_MarkupCompile.cache
+C:\Users\petro\onedrive\documents\visual studio 2017\Projects\WpfHotelZavrsni01\WpfHotelZavrsni01\obj\Debug\WpfHotelZavrsni01_MarkupCompile.lref
+C:\Users\petro\onedrive\documents\visual studio 2017\Projects\WpfHotelZavrsni01\WpfHotelZavrsni01\bin\Debug\WpfHotelZavrsni01.exe.config
+C:\Users\petro\onedrive\documents\visual studio 2017\Projects\WpfHotelZavrsni01\WpfHotelZavrsni01\bin\Debug\WpfHotelZavrsni01.exe
+C:\Users\petro\onedrive\documents\visual studio 2017\Projects\WpfHotelZavrsni01\WpfHotelZavrsni01\bin\Debug\WpfHotelZavrsni01.pdb
+C:\Users\petro\onedrive\documents\visual studio 2017\Projects\WpfHotelZavrsni01\WpfHotelZavrsni01\obj\Debug\MainWindow.baml
+C:\Users\petro\onedrive\documents\visual studio 2017\Projects\WpfHotelZavrsni01\WpfHotelZavrsni01\obj\Debug\WindowCekiranje.baml
+C:\Users\petro\onedrive\documents\visual studio 2017\Projects\WpfHotelZavrsni01\WpfHotelZavrsni01\obj\Debug\WpfHotelZavrsni01.g.resources
+C:\Users\petro\onedrive\documents\visual studio 2017\Projects\WpfHotelZavrsni01\WpfHotelZavrsni01\obj\Debug\WpfHotelZavrsni01.Properties.Resources.resources
+C:\Users\petro\onedrive\documents\visual studio 2017\Projects\WpfHotelZavrsni01\WpfHotelZavrsni01\obj\Debug\WpfHotelZavrsni01.csproj.GenerateResource.Cache
+C:\Users\petro\onedrive\documents\visual studio 2017\Projects\WpfHotelZavrsni01\WpfHotelZavrsni01\obj\Debug\WpfHotelZavrsni01.exe
+C:\Users\petro\onedrive\documents\visual studio 2017\Projects\WpfHotelZavrsni01\WpfHotelZavrsni01\obj\Debug\WpfHotelZavrsni01.pdb
+C:\Users\petro\onedrive\documents\visual studio 2017\Projects\WpfHotelZavrsni01\WpfHotelZavrsni01\bin\Debug\HamburgerMenu.dll
+C:\Users\petro\OneDrive\Documents\Visual Studio 2017\Projects\WpfHotelZavrsni01\WpfHotelZavrsni01\obj\Debug\GeneratedInternalTypeHelper.g.cs
+C:\Users\petro\onedrive\documents\visual studio 2017\Projects\WpfHotelZavrsni01\WpfHotelZavrsni01\obj\Debug\MyPages\PageCekiranje.g.cs
+C:\Users\petro\onedrive\documents\visual studio 2017\Projects\WpfHotelZavrsni01\WpfHotelZavrsni01\obj\Debug\MyPages\PageCekiranje.baml
+C:\Users\petro\OneDrive\Documents\Visual Studio 2017\Projects\WpfHotelZavrsni01\WpfHotelZavrsni01\obj\Debug\MyPages\PageHome.g.cs
+C:\Users\petro\OneDrive\Documents\Visual Studio 2017\Projects\WpfHotelZavrsni01\WpfHotelZavrsni01\obj\Debug\MyPages\PageRezervacije.g.cs
+C:\Users\petro\OneDrive\Documents\Visual Studio 2017\Projects\WpfHotelZavrsni01\WpfHotelZavrsni01\obj\Debug\MyPages\PageHome.baml
+C:\Users\petro\OneDrive\Documents\Visual Studio 2017\Projects\WpfHotelZavrsni01\WpfHotelZavrsni01\obj\Debug\MyPages\PageRezervacije.baml
+C:\Users\petro\onedrive\documents\visual studio 2017\Projects\WpfHotelZavrsni01\WpfHotelZavrsni01\obj\Debug\MyPages\PageGalerija.g.cs
+C:\Users\petro\onedrive\documents\visual studio 2017\Projects\WpfHotelZavrsni01\WpfHotelZavrsni01\obj\Debug\MyPages\PageGalerija.baml
+C:\Users\petro\onedrive\documents\visual studio 2017\Projects\WpfHotelZavrsni01\WpfHotelZavrsni01\obj\Debug\WpfHotelZavrsni01_Content.g.cs
+D:\HotelManagement\WpfHotelZavrsni01\WpfHotelZavrsni01\bin\Debug\WpfHotelZavrsni01.exe.config
+D:\HotelManagement\WpfHotelZavrsni01\WpfHotelZavrsni01\bin\Debug\WpfHotelZavrsni01.exe
+D:\HotelManagement\WpfHotelZavrsni01\WpfHotelZavrsni01\bin\Debug\WpfHotelZavrsni01.pdb
+D:\HotelManagement\WpfHotelZavrsni01\WpfHotelZavrsni01\bin\Debug\HamburgerMenu.dll
+D:\HotelManagement\WpfHotelZavrsni01\WpfHotelZavrsni01\obj\Debug\WpfHotelZavrsni01.csprojResolveAssemblyReference.cache
+D:\HotelManagement\WpfHotelZavrsni01\WpfHotelZavrsni01\obj\Debug\MainWindow.g.cs
+D:\HotelManagement\WpfHotelZavrsni01\WpfHotelZavrsni01\obj\Debug\MyPages\PageHome.g.cs
+D:\HotelManagement\WpfHotelZavrsni01\WpfHotelZavrsni01\obj\Debug\MyPages\PageCekiranje.g.cs
+D:\HotelManagement\WpfHotelZavrsni01\WpfHotelZavrsni01\obj\Debug\MyPages\PageRezervacije.g.cs
+D:\HotelManagement\WpfHotelZavrsni01\WpfHotelZavrsni01\obj\Debug\MyPages\PageGalerija.g.cs
+D:\HotelManagement\WpfHotelZavrsni01\WpfHotelZavrsni01\obj\Debug\WindowCekiranje.g.cs
+D:\HotelManagement\WpfHotelZavrsni01\WpfHotelZavrsni01\obj\Debug\App.g.cs
+D:\HotelManagement\WpfHotelZavrsni01\WpfHotelZavrsni01\obj\Debug\WpfHotelZavrsni01_Content.g.cs
+D:\HotelManagement\WpfHotelZavrsni01\WpfHotelZavrsni01\obj\Debug\GeneratedInternalTypeHelper.g.cs
+D:\HotelManagement\WpfHotelZavrsni01\WpfHotelZavrsni01\obj\Debug\WpfHotelZavrsni01_MarkupCompile.cache
+D:\HotelManagement\WpfHotelZavrsni01\WpfHotelZavrsni01\obj\Debug\WpfHotelZavrsni01_MarkupCompile.lref
+D:\HotelManagement\WpfHotelZavrsni01\WpfHotelZavrsni01\obj\Debug\MainWindow.baml
+D:\HotelManagement\WpfHotelZavrsni01\WpfHotelZavrsni01\obj\Debug\MyPages\PageHome.baml
+D:\HotelManagement\WpfHotelZavrsni01\WpfHotelZavrsni01\obj\Debug\MyPages\PageCekiranje.baml
+D:\HotelManagement\WpfHotelZavrsni01\WpfHotelZavrsni01\obj\Debug\MyPages\PageRezervacije.baml
+D:\HotelManagement\WpfHotelZavrsni01\WpfHotelZavrsni01\obj\Debug\MyPages\PageGalerija.baml
+D:\HotelManagement\WpfHotelZavrsni01\WpfHotelZavrsni01\obj\Debug\WindowCekiranje.baml
+D:\HotelManagement\WpfHotelZavrsni01\WpfHotelZavrsni01\obj\Debug\WpfHotelZavrsni01.g.resources
+D:\HotelManagement\WpfHotelZavrsni01\WpfHotelZavrsni01\obj\Debug\WpfHotelZavrsni01.Properties.Resources.resources
+D:\HotelManagement\WpfHotelZavrsni01\WpfHotelZavrsni01\obj\Debug\WpfHotelZavrsni01.csproj.GenerateResource.Cache
+D:\HotelManagement\WpfHotelZavrsni01\WpfHotelZavrsni01\obj\Debug\WpfHotelZavrsni01.exe
+D:\HotelManagement\WpfHotelZavrsni01\WpfHotelZavrsni01\obj\Debug\WpfHotelZavrsni01.pdb
