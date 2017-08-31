@@ -1,2 +1,2 @@
-# Information-system-for-hotel
+# Information-systems-for-hotel
 My graduate work 
